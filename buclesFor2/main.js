@@ -15,9 +15,7 @@ if ((numMenor < numMayor)&&(Number.isInteger(numMenor)==true&&Number.isInteger(n
         if (i%2==0){
             document.write(i+'<br>');
         }
-
     }
-
 }
 
 else if ((numMayor < numMenor)&&(Number.isInteger(numMenor)==true&&Number.isInteger(numMayor)==true)) {
@@ -28,12 +26,9 @@ else if ((numMayor < numMenor)&&(Number.isInteger(numMenor)==true&&Number.isInte
         if (i%2==0){
             document.write(i+'<br>');
         }
-
     }
 }
 
 else{
-
-    document.write('Introduce valores numéricos, parece que hay algún error.');
-    
+    document.write('Introduce valores numéricos, parece que hay algún error.');  
 }

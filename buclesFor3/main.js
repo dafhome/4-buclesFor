@@ -10,7 +10,7 @@ var porcDto = 0.15;
 
 for (let i=0;i<totalArticulos;i++){
 
-    let precioArticulo = parseFloat(prompt('Dime el precio del articulo '+(i+1)))
+    let precioArticulo = parseFloat(prompt('Dime el precio del articulo '+(i+1)));
     importeTotal = importeTotal + precioArticulo;
 
 }
